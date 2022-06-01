@@ -1,12 +1,16 @@
-import logo from './logo.svg';
+import {
+  BrowserRouter,
+} from "react-router-dom";
+
+import Navbar from "./components/Navbar";
+
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-     <h1>Pagina do Mauro</h1>>
-    </div>
+    < BrowserRouter >
+      <Navbar / >  
+    </BrowserRouter>
   );
 }
-
 export default App;
